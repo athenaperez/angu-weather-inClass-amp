@@ -1,0 +1,11 @@
+
+#bower init
+#touch .bowerrc
+#enter the .bowerrc file on sublime
+#{
+#    "directory": "lib"
+#}
+--sends dependencies to the lib file, not under bower components
+#bower install angular --save
+#bower install angular-route --save
+#bower install bootstrap --save
