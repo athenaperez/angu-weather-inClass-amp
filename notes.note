@@ -9,3 +9,10 @@
 #bower install angular --save
 #bower install angular-route --save
 #bower install bootstrap --save
+
+
+
+
+#ng-view
+-for routing 
+-maps the 

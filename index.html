@@ -3,19 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Angu-Weathar</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <!-- ________________________________________ -->
 <body>
 
-
-
 	<div class="container">
-		<h1>Welcome to Angu-Weathar!</h1>
+		<div ng-app="anguWeather"> <!-- begin angular div -->
+			<div ng-view></div>
+
+
+		</div> <!-- end angular div -->
+
 	</div>
 
-
 <!-- ______________________________ -->
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
 	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/lib/angular/angular.min.js"></script>
 	<script src="/lib/angular-route/angular-route.min.js"></script>
